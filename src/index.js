@@ -43,7 +43,7 @@ module.exports = function getLoveTrianglesCount(preferences = []) {
   		Ar.push(k);
   		continue;
   	}
-      if (i=n){
+      if (i==n){
         t++;
         Ar.push(i);
         Ar.push(j);
